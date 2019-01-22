@@ -14,7 +14,6 @@ Open the wp-config.php file and change WP_HOME and WP_SITEURL to your host:
 ```
 define('WP_HOME','http://screensaver.local');
 define('WP_SITEURL','http://screensaver.local');
-
 ```
 
 As with all WordPress sites you'll need to run a MySQL database. Create a database with a privileged user, and import the SQL file (in the root of the repo).
@@ -31,7 +30,6 @@ define('DB_PASSWORD','YOUR_DATABASE_PASSWORD');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
-
 ```
 
 Point your browser to http://screensaver.local/login (or whatever you've called your host) and user the following credentials:
