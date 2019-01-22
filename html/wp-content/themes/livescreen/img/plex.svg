@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3086 1000" style="enable-background:new 0 0 3086 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:url(#SVGID_1_);}
+</style>
+<title>plex-logo-light</title>
+<path class="st0" d="M3086,0h-290l-290,500l290,500h289.7L2796,500.2L3086,0"/>
+<radialGradient id="SVGID_1_" cx="2487.3101" cy="-0.269" r="0.925" gradientTransform="matrix(610 0 0 1000.5 -1514528.625 766.805)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#F9BE03"/>
+	<stop  offset="1" style="stop-color:#CC7C19"/>
+</radialGradient>
+<path class="st1" d="M2186,0h290l320,500.2l-320,500.2h-290l320-500.2L2186,0"/>
+<path class="st0" d="M2085.9,1000h-577.1V0h577.1v173.7h-364.6v219.6h339.3V567h-339.3v257.9h364.6V1000 M791.3,1000V0h212v824.9
+	h405.6V1000H791.3 M589.9,558.8c-67.3,57-162.9,85.5-286.9,85.5h-91V1000H0V470.3l290,0.4c177.6-2.1,186.8-110.8,186.8-148.5
+	c0-35,0-146.8-157.8-148.5l-319,0V0h319.4c121.3,0,213.5,26.1,276.7,78.3c63.2,52.2,94.7,130.1,94.7,233.6
+	C690.8,419.5,657.2,501.8,589.9,558.8L589.9,558.8z"/>
+<path class="st0" d="M0,110h212.2v429H0V110z"/>
+</svg>

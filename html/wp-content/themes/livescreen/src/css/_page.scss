@@ -1,0 +1,130 @@
+@keyframes myMove {
+    from {
+        transform: scale(1.1, 1.1);
+
+    }
+
+    to {
+        transform: scale(1, 1);
+
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+img[src=""] {
+    display: none;
+}
+
+img {
+    color: transparent;
+}
+
+body {
+    animation: fadein 2s;
+    color: #fff;
+}
+
+.slick-list, .slick-track {
+    height: 100%;
+}
+
+.slick-slider {
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+
+    li {
+        height: 100vh;
+        opacity: 0;
+
+        &.slick-current {
+            opacity: 1;
+            animation: fadein 2s;
+        }
+
+        & > img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            -webkit-transform:translateZ(0);
+            will-change: transform;
+        }
+
+        & > div {
+            position: absolute;
+            z-index: 9;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 30vh;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+
+            & > div {
+                position: absolute;
+                left: 5.5%;
+                top: 50%;
+                transform: translate(0, -50%);
+                width: 100%;
+                max-width: 34%;
+                height: 100%;
+                max-height: 5vh;
+                z-index: 10;
+
+                &[data-ratio="square"] {
+                    max-height: 10vh;
+                }
+
+                img {
+                    object-fit: contain;
+                    height: 100%;
+                    width: 100%;
+                    object-position: center left;
+
+                    /* I like to have my logos all white, delete this if you want them coloured */
+                    filter: brightness(0) invert(1);
+                }
+            }
+        }
+    }
+}
+
+.slick-slider li.slick-active > img {
+    /* Animation on slide, comment this out if you want to remove it */
+    animation: myMove 28s linear;
+}
+
+.server {
+    &-details {
+        position: fixed;
+        z-index: 2;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 30vh;
+
+        &-logo {
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            right: 5.5%;
+            width: 8%;
+            height: auto;
+
+        }
+    }
+}

@@ -1,0 +1,3 @@
+404:/robots.txt
+404:/favicon.ico
+404:/sitemap.xml
